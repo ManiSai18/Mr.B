@@ -1,0 +1,17 @@
+{% extends 'budget/base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <h3>All Persons</h3>
+    <table class="table table-striped mt-3">
+        <thead><tr><th>Name</th><th>Plan Title</th></tr></thead>
+        <tbody>
+        {% for person in persons %}
+            <tr>
+                <td>{{ person.person_name }}</td>
+                <td>{{ person.plan.title }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+
+.panel-heading {
+    background-color: #5bc0de !important;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.panel-body p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-right: 10px;
+}

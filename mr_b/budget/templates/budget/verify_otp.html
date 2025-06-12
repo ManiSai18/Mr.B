@@ -1,0 +1,17 @@
+{% extends 'budget/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container py-5">
+  <div class="card shadow-lg p-4 mx-auto" style="max-width: 500px;">
+    <h3 class="text-center mb-4">Verify OTP</h3>
+    <form method="POST" action="{% url 'verify_otp' %}">
+      {% csrf_token %}
+      <div class="form-group mb-3">
+        <label for="otp">Enter the OTP sent to your email</label>
+        <input type="text" class="form-control" name="otp" placeholder="6-digit OTP" required>
+      </div>
+      <button type="submit" class="btn btn-success w-100">Verify</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

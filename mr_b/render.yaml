@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mr-budget-app
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn mr_b.wsgi"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: mr_b.settings

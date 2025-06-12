@@ -1,0 +1,11 @@
+
+    .pan {
+        padding-top: 20px;
+    }
+    .panel-heading {
+        font-weight: bold;
+        font-size: 18px;
+        background-color: darkcyan !important;
+        color: white !important;
+    }
+    

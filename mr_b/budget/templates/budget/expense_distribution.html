@@ -1,0 +1,145 @@
+{% extends 'budget/base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'budget/css/expense_distribution.css' %}">
+
+<div class="container mt-5">
+  <h3 class="text-center mb-4">Expense Distribution for "{{ plan.title }}"</h3>
+
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-body text-center">
+          <canvas id="expenseChart" height="300"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Summary</h5>
+          <p><strong>Total Spent:</strong> ${{ total_spent }}</p>
+          <p><strong>Total People:</strong> {{ total_people }}</p>
+          <p><strong>Expected Share Per Person:</strong> ${{ expected_share }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Actual Spent</h5>
+          {% for name, amount in distribution.items %}
+            <p><strong>{{ name }}:</strong> ${{ amount }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Difference</h5>
+          {% for name, diff in share_diff.items %}
+            <p>
+              <strong>{{ name }}:</strong>
+              {% if diff > 0 %}
+                will receive ${{ diff }}
+              {% elif diff < 0 %}
+                owes ${{ diff }}
+              {% else %}
+                settled
+              {% endif %}
+            </p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if top_spender %}
+  <div class="row mb-4">
+    <div class="col-md-12">
+      <div class="card bg-light shadow-sm">
+        <div class="card-body text-center">
+          <h5 class="card-title">🏆 Top Spender</h5>
+          <p><strong>{{ top_spender }}</strong> spent the most in this plan!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Expense Details</h5>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Amount</th>
+              <th>Person</th>
+              <th>Payment Method</th>
+              <th>Category</th>
+              <th>Date</th>
+              <th>City</th>
+              <th>State</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for exp in expenses %}
+            <tr>
+              <td>{{ exp.expense_title }}</td>
+              <td>{{ exp.amount_spent }}</td>
+              <td>{{ exp.person.person_name }}</td>
+              <td>{{ exp.payment_method.payment_method_name }}</td>
+              <td>{{ exp.category.category_name }}</td>
+              <td>{{ exp.date }}</td>
+              <td>{{ exp.city }}</td>
+              <td>{{ exp.state }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('expenseChart');
+  const chartData = {
+    labels: {{ names|safe }},
+    datasets: [{
+      label: 'Expenses',
+      data: {{ values|safe }},
+      backgroundColor: [
+        '#007bff', '#28a745', '#ffc107', '#dc3545', '#17a2b8', '#6610f2'
+      ],
+      borderWidth: 1
+    }]
+  };
+
+  new Chart(ctx, {
+    type: 'pie',
+    data: chartData,
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom'
+        }
+      }
+    }
+  });
+</script>
+{% endblock %}

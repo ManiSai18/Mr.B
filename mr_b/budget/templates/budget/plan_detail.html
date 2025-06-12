@@ -1,0 +1,39 @@
+{% extends 'budget/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'budget/css/plan-details.css' %}">
+
+<div class="container pan" style="margin-top: 80px;">
+    <div class="row row_style">
+        <div class="col-sm-12 col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <label>Title</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="title" value="{{ plan.title }}" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>From</label>
+                                <div class="form-group">
+                                    <input type="date" class="form-control" name="from_date" value="{{ plan.from_date }}" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <label>To</label>
+                                <div class="form-group">
+                                    <input type="date" class="form-control" name="to_date" value="{{ plan.to_date }}" required>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-info">Update Plan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

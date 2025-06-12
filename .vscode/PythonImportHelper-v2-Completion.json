@@ -1,0 +1,929 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "random,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random.",
+        "description": "random.",
+        "detail": "random.",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "make_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models.aggregates",
+        "description": "django.db.models.aggregates",
+        "isExtraImport": true,
+        "detail": "django.db.models.aggregates",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0001_initial",
+        "description": "mr_b.budget.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('category_id', models.AutoField(primary_key=True, serialize=False)),\n                ('category_name', models.CharField(max_length=255)),",
+        "detail": "mr_b.budget.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0002_rename_user_users",
+        "description": "mr_b.budget.migrations.0002_rename_user_users",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('budget', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='User',\n            new_name='Users',\n        ),\n    ]",
+        "detail": "mr_b.budget.migrations.0002_rename_user_users",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0003_remove_expense_category_name_and_more",
+        "description": "mr_b.budget.migrations.0003_remove_expense_category_name_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('budget', '0002_rename_user_users'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='expense',\n            name='category_name',\n        ),\n        migrations.RemoveField(",
+        "detail": "mr_b.budget.migrations.0003_remove_expense_category_name_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0004_payment_expense_alter_expense_payment_method",
+        "description": "mr_b.budget.migrations.0004_payment_expense_alter_expense_payment_method",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('budget', '0003_remove_expense_category_name_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='payment',\n            name='expense',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='payments', to='budget.expense'),\n        ),",
+        "detail": "mr_b.budget.migrations.0004_payment_expense_alter_expense_payment_method",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0005_expense_person_name",
+        "description": "mr_b.budget.migrations.0005_expense_person_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('budget', '0004_payment_expense_alter_expense_payment_method'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='expense',\n            name='person_name',\n            field=models.CharField(max_length=255, null=True),\n        ),",
+        "detail": "mr_b.budget.migrations.0005_expense_person_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0006_remove_expense_person_name_remove_payment_expense",
+        "description": "mr_b.budget.migrations.0006_remove_expense_person_name_remove_payment_expense",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('budget', '0005_expense_person_name'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='expense',\n            name='person_name',\n        ),\n        migrations.RemoveField(",
+        "detail": "mr_b.budget.migrations.0006_remove_expense_person_name_remove_payment_expense",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "mr_b.budget.migrations.0007_users_groups_users_is_active_users_is_staff_and_more",
+        "description": "mr_b.budget.migrations.0007_users_groups_users_is_active_users_is_staff_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        ('budget', '0006_remove_expense_person_name_remove_payment_expense'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='users',\n            name='groups',\n            field=models.ManyToManyField(blank=True, help_text='The groups this user belongs to. A user will get all permissions granted to each of their groups.', related_name='user_set', related_query_name='user', to='auth.group', verbose_name='groups'),",
+        "detail": "mr_b.budget.migrations.0007_users_groups_users_is_active_users_is_staff_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "BudgetConfig",
+        "kind": 6,
+        "importPath": "mr_b.budget.apps",
+        "description": "mr_b.budget.apps",
+        "peekOfCode": "class BudgetConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'budget'",
+        "detail": "mr_b.budget.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserManager",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class CustomUserManager(BaseUserManager):\n    def create_user(self, email, password=None, **extra_fields):\n        if not email:\n            raise ValueError('Email must be set')\n        email = self.normalize_email(email)\n        user = self.model(email=email, **extra_fields)\n        user.set_password(password)\n        user.save()\n        return user\n    def create_superuser(self, email, password, **extra_fields):",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class Users(AbstractBaseUser, PermissionsMixin):\n    user_id = models.AutoField(primary_key=True)\n    user_name = models.CharField(max_length=255)\n    email = models.EmailField(unique=True)\n    contact = models.BigIntegerField()\n    is_active = models.BooleanField(default=True)\n    is_staff = models.BooleanField(default=False)\n    objects = CustomUserManager()\n    USERNAME_FIELD = 'email'\n    REQUIRED_FIELDS = ['user_name', 'contact']",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "Plan",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class Plan(models.Model):\n    plan_id = models.AutoField(primary_key=True)\n    user = models.ForeignKey(Users, on_delete=models.CASCADE)\n    initial_budget = models.BigIntegerField()\n    people_number = models.IntegerField()\n    title = models.CharField(max_length=255)\n    from_date = models.DateField()\n    to_date = models.DateField()\n    def __str__(self):\n        return self.title",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class Person(models.Model):\n    person_id = models.AutoField(primary_key=True)\n    person_name = models.CharField(max_length=255)\n    plan = models.ForeignKey(Plan, null=True, on_delete=models.SET_NULL)\n    def __str__(self):\n        return self.person_name\nclass Category(models.Model):\n    category_id = models.AutoField(primary_key=True)\n    category_name = models.CharField(max_length=255)\n    description = models.CharField(max_length=255, null=True, blank=True)",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class Category(models.Model):\n    category_id = models.AutoField(primary_key=True)\n    category_name = models.CharField(max_length=255)\n    description = models.CharField(max_length=255, null=True, blank=True)\n    def __str__(self):\n        return self.category_name\nclass Payment(models.Model):\n    payment_method_id = models.AutoField(primary_key=True)\n    payment_method_name = models.CharField(max_length=255)\n    description = models.CharField(max_length=255, null=True, blank=True)",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class Payment(models.Model):\n    payment_method_id = models.AutoField(primary_key=True)\n    payment_method_name = models.CharField(max_length=255)\n    description = models.CharField(max_length=255, null=True, blank=True)\n    def __str__(self):\n        return self.payment_method_name\nclass Expense(models.Model):\n    expense_id = models.AutoField(primary_key=True)\n    plan = models.ForeignKey(Plan, on_delete=models.CASCADE, null=True, blank=True)\n    expense_title = models.CharField(max_length=255, null=True)",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "Expense",
+        "kind": 6,
+        "importPath": "mr_b.budget.models",
+        "description": "mr_b.budget.models",
+        "peekOfCode": "class Expense(models.Model):\n    expense_id = models.AutoField(primary_key=True)\n    plan = models.ForeignKey(Plan, on_delete=models.CASCADE, null=True, blank=True)\n    expense_title = models.CharField(max_length=255, null=True)\n    person = models.ForeignKey(Person, null=True, blank=True, on_delete=models.SET_NULL)\n    amount_spent = models.BigIntegerField(null=True)\n    bill = models.BinaryField(null=True, blank=True)\n    date = models.DateField(null=True)\n    time = models.TimeField(null=True)\n    city = models.CharField(max_length=255, null=True)",
+        "detail": "mr_b.budget.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "mr_b.budget.urls",
+        "description": "mr_b.budget.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.dashboard_view, name='dashboard'),\n    path('signup/', views.signup_view, name='signup'),\n    path('login/', views.login_view, name='login'),\n    path('logout/', views.logout_view, name='logout'),\n    path('create-plan/', views.create_plan_view, name='create_plan'),\n    path('plans/', views.plan_list_view, name='plan_list'),\n    path('plan/<int:plan_id>/edit/', views.plan_detail_view, name='plan_detail'),\n    path('plan/<int:plan_id>/', views.view_plan_view, name='view_plan'),\n    path('all-persons/', views.all_persons_view, name='all_persons'),",
+        "detail": "mr_b.budget.urls",
+        "documentation": {}
+    },
+    {
+        "label": "generate_otp",
+        "kind": 2,
+        "importPath": "mr_b.budget.utils",
+        "description": "mr_b.budget.utils",
+        "peekOfCode": "def generate_otp():\n    return str(random.randint(100000, 999999))\ndef send_otp_email(email, otp):\n    subject = 'Mr. Budget - Password Reset OTP'\n    message = f'Your OTP for password reset is: {otp}'\n    from_email = 'rmani0894@gmail.com'\n    recipient_list = [email]\n    send_mail(subject, message, from_email, recipient_list)",
+        "detail": "mr_b.budget.utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_otp_email",
+        "kind": 2,
+        "importPath": "mr_b.budget.utils",
+        "description": "mr_b.budget.utils",
+        "peekOfCode": "def send_otp_email(email, otp):\n    subject = 'Mr. Budget - Password Reset OTP'\n    message = f'Your OTP for password reset is: {otp}'\n    from_email = 'rmani0894@gmail.com'\n    recipient_list = [email]\n    send_mail(subject, message, from_email, recipient_list)",
+        "detail": "mr_b.budget.utils",
+        "documentation": {}
+    },
+    {
+        "label": "session_required",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def session_required(view_func):\n    def wrapper(request, *args, **kwargs):\n        allowed_paths = ['/login/', '/signup/', '/', '/request-password-reset/', '/verify-otp/', '/set-new-password/']\n        if request.path in allowed_paths:\n            return view_func(request, *args, **kwargs)\n        if not request.session.get('user_id'):\n            return redirect(f'/login/?next={request.path}')\n        return view_func(request, *args, **kwargs)\n    return wrapper\n# Location Fetching Logic (IP Based)",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_location_info",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def get_location_info():\n    try:\n        response = requests.get(\"https://ipapi.co/json/\", timeout=3)\n        data = response.json()\n        return {\n            \"city\": data.get(\"city\", \"\"),\n            \"state\": data.get(\"region\", \"\"),\n            \"zip\": data.get(\"postal\", \"\"),\n            \"address\": data.get(\"org\", \"\"),\n            \"location_type\": data.get(\"country_name\", \"\")",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def index(request):\n    if request.session.get('user_id'):\n        return redirect('dashboard')\n    return render(request, 'budget/index.html')\n################# AUTHENTICATION FLOW #################\n@session_required\ndef signup_view(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')\n        email = request.POST.get('email')",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "signup_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def signup_view(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')\n        email = request.POST.get('email')\n        password = request.POST.get('password')\n        confirm = request.POST.get('confirm_password')\n        contact = request.POST.get('contact')\n        if not re.fullmatch(r'^\\d{10}$', contact):\n            messages.error(request, \"Enter valid 10-digit contact.\")\n            return redirect('signup')",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        password = request.POST.get('password')\n        try:\n            user = Users.objects.get(email=email)\n            if check_password(password, user.password):\n                request.session['user_id'] = user.user_id\n                return redirect('dashboard')\n            else:",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def logout_view(request):\n    request.session.flush()\n    return redirect('login')\n@session_required\ndef request_password_reset(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        try:\n            user = Users.objects.get(email=email)\n        except Users.DoesNotExist:",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "request_password_reset",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def request_password_reset(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        try:\n            user = Users.objects.get(email=email)\n        except Users.DoesNotExist:\n            messages.error(request, \"No user found with this email.\")\n            return redirect('request_password_reset')\n        otp = str(random.randint(100000, 999999))\n        request.session['reset_email'] = email",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "verify_otp_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def verify_otp_view(request):\n    if request.method == 'POST':\n        otp_input = request.POST.get('otp')\n        session_otp = request.session.get('otp')\n        if not session_otp:\n            messages.error(request, \"Session expired or invalid.\")\n            return redirect('request_password_reset')\n        if otp_input == session_otp:\n            return redirect('set_new_password')\n        else:",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "set_new_password_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def set_new_password_view(request):\n    if request.method == 'POST':\n        new_password = request.POST.get('new_password')\n        email = request.session.get('reset_email')\n        if not email:\n            messages.error(request, \"Session expired. Please restart.\")\n            return redirect('request_password_reset')\n        try:\n            user = Users.objects.get(email=email)\n            user.password = make_password(new_password)",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def dashboard_view(request):\n    user_id = request.session.get('user_id')\n    user_name = Users.objects.get(user_id=user_id)\n    plans = Plan.objects.filter(user_id=user_id)\n    labels, budgets, spent = [], [], []\n    for plan in plans:\n        total = Expense.objects.filter(plan_id=plan.plan_id).aggregate(Sum('amount_spent'))['amount_spent__sum'] or 0\n        labels.append(plan.title)\n        budgets.append(plan.initial_budget)\n        spent.append(total)",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_plan_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def create_plan_view(request):\n    if request.method == 'POST':\n        plan = Plan.objects.create(\n            user_id=request.session['user_id'],\n            title=request.POST['title'],\n            initial_budget=request.POST['initial_budget'],\n            people_number=request.POST['people_number'],\n            from_date=request.POST['from_date'],\n            to_date=request.POST['to_date'],\n        )",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "plan_list_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def plan_list_view(request):\n    plans = Plan.objects.filter(user_id=request.session.get('user_id'))\n    return render(request, 'budget/plan.html', {'plans': plans})\n@session_required\ndef plan_detail_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id, user_id=request.session.get('user_id'))\n    if request.method == 'POST':\n        plan.title = request.POST['title']\n        plan.from_date = request.POST['from_date']\n        plan.to_date = request.POST['to_date']",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "plan_detail_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def plan_detail_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id, user_id=request.session.get('user_id'))\n    if request.method == 'POST':\n        plan.title = request.POST['title']\n        plan.from_date = request.POST['from_date']\n        plan.to_date = request.POST['to_date']\n        plan.save()\n        return redirect('plan_list')\n    return render(request, 'budget/plan_detail.html', {'plan': plan})\n@session_required",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_plan_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def view_plan_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id, user_id=request.session.get('user_id'))\n    people = Person.objects.filter(plan_id=plan_id)\n    expenses = Expense.objects.filter(plan_id=plan_id).order_by('date', 'time')\n    return render(request, 'budget/view_plan.html', {\n        'plan': plan, 'people': people, 'expenses': expenses\n    })\n@session_required\ndef all_persons_view(request):\n    user_id = request.session.get('user_id')",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_persons_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def all_persons_view(request):\n    user_id = request.session.get('user_id')\n    persons = Person.objects.filter(plan__user_id=user_id)\n    return render(request, 'budget/all_persons.html', {'persons': persons})\n@session_required\ndef all_payments_view(request):\n    payments = Payment.objects.all()\n    return render(request, 'budget/all_payments.html', {'payments': payments})\n################# EXPENSE MODULE #################\n@session_required",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_payments_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def all_payments_view(request):\n    payments = Payment.objects.all()\n    return render(request, 'budget/all_payments.html', {'payments': payments})\n################# EXPENSE MODULE #################\n@session_required\ndef add_expense_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id)\n    people = Person.objects.filter(plan=plan)\n    payment_methods = Payment.objects.all()\n    categories = Category.objects.all()",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_expense_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def add_expense_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id)\n    people = Person.objects.filter(plan=plan)\n    payment_methods = Payment.objects.all()\n    categories = Category.objects.all()\n    if request.method == 'POST':\n        current_time = datetime.now().time()\n        person_id = request.POST.get('person')\n        person = Person.objects.get(person_id=person_id)\n        amount = request.POST.get('amount')",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_expense_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def edit_expense_view(request, expense_id):\n    expense = get_object_or_404(Expense, expense_id=expense_id)\n    plan = expense.plan\n    people = Person.objects.filter(plan=plan)\n    payment_methods = Payment.objects.all()\n    categories = Category.objects.all()\n    if request.method == 'POST':\n        expense.person = Person.objects.get(person_id=request.POST.get('person'))\n        expense.amount_spent = request.POST.get('amount')\n        expense.date = request.POST.get('date')",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_expense_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def delete_expense_view(request, expense_id):\n    expense = get_object_or_404(Expense, pk=expense_id)\n    plan_id = expense.plan_id\n    expense.delete()\n    return redirect('view_plan', plan_id=plan_id)\n@session_required\ndef expense_distribution_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id)\n    people = Person.objects.filter(plan=plan)\n    expenses = Expense.objects.filter(plan=plan)",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "expense_distribution_view",
+        "kind": 2,
+        "importPath": "mr_b.budget.views",
+        "description": "mr_b.budget.views",
+        "peekOfCode": "def expense_distribution_view(request, plan_id):\n    plan = get_object_or_404(Plan, pk=plan_id)\n    people = Person.objects.filter(plan=plan)\n    expenses = Expense.objects.filter(plan=plan)\n    total_spent = expenses.aggregate(Sum('amount_spent'))['amount_spent__sum'] or 0\n    total_people = people.count()\n    expected_share = total_spent / total_people if total_people else 0\n    distribution = {p.person_name: expenses.filter(person=p).aggregate(Sum('amount_spent'))['amount_spent__sum'] or 0 for p in people}\n    share_diff = {name: round(amount - expected_share, 2) for name, amount in distribution.items()}\n    top_spender = max(distribution.items(), key=lambda x: x[1])[0] if distribution else None",
+        "detail": "mr_b.budget.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.asgi",
+        "description": "mr_b.mr_b.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "mr_b.mr_b.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nSECRET_KEY = 'django-insecure-nk0$ul$rvpdhd3$*pye^9g=k&c)pgqtsgufgzv0*!-@sa&6(y^'\nDEBUG = True\nALLOWED_HOSTS = ['*']\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-nk0$ul$rvpdhd3$*pye^9g=k&c)pgqtsgufgzv0*!-@sa&6(y^'\nDEBUG = True\nALLOWED_HOSTS = ['*']\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'budget',",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'budget',\n]",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'budget',\n]\nMIDDLEWARE = [",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'mr_b.urls'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "ROOT_URLCONF = 'mr_b.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'budget' / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'budget' / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'mr_b.wsgi.application'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\nAUTH_USER_MODEL = 'budget.Users'\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\nAUTH_USER_MODEL = 'budget.Users'\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'budget.Users'\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'budget', 'static')]\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'rmani0894@gmail.com'\nEMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.settings",
+        "description": "mr_b.mr_b.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'yalg aenj voss emxp'",
+        "detail": "mr_b.mr_b.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.urls",
+        "description": "mr_b.mr_b.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('budget.urls')),\n]",
+        "detail": "mr_b.mr_b.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "mr_b.mr_b.wsgi",
+        "description": "mr_b.mr_b.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "mr_b.mr_b.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "mr_b.manage",
+        "description": "mr_b.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mr_b.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "mr_b.manage",
+        "documentation": {}
+    }
+]
