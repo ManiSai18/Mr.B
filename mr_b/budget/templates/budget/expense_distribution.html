@@ -1,5 +1,7 @@
 {% extends 'budget/base.html' %}
 {% block content %}
+{% load custom_filters %}
+{{ diff|absolute }}
 <div class="container py-5">
   <h3 class="text-center mb-4">Expense Distribution for "{{ plan.title }}"</h3>
 
