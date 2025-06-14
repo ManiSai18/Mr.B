@@ -41,13 +41,14 @@
     <div class="col-md-4">
       <div class="card shadow-sm h-100">
         <div class="card-body">
-          <h5>Difference</h5>
+          <h5 class="card-title">Difference</h5>
           {% for name, diff in share_diff.items %}
-            <p>{{ name }}: 
+            <p>
+              <strong>{{ name }}:</strong>
               {% if diff > 0 %}
                 will receive ${{ diff }}
               {% elif diff < 0 %}
-                owes ${{ diff|abs }}
+                owes ${{ diff|stringformat:"f"|slice:"1:" }}
               {% else %}
                 settled
               {% endif %}
