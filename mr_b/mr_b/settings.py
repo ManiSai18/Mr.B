@@ -51,8 +51,12 @@ WSGI_APPLICATION = 'mr_b.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'xkMYxJHLDCIrEjJHbOLFGvPpPRNhDHsw',  # <-- put full password here
+        'HOST': 'centerbeam.proxy.rlwy.net',
+        'PORT': '3306',
     }
 }
 
