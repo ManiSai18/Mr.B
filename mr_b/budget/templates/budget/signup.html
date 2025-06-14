@@ -1,48 +1,51 @@
 {% extends 'budget/base.html' %}
-{% load static %}
-
 {% block content %}
-<div class="container" style="margin-top: 80px;">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card shadow">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="text-center mb-0">Sign Up</h4>
-                </div>
-                <div class="card-body">
-                    {% if messages %}
-                        {% for message in messages %}
-                            <div class="alert alert-{{ message.tags }}">{{ message }}</div>
-                        {% endfor %}
-                    {% endif %}
-                    <form method="POST">
-                        {% csrf_token %}
-                        <div class="form-group mb-3">
-                            <label for="name">Full Name</label>
-                            <input type="text" name="name" class="form-control" required>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" class="form-control" required>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="contact">Contact Number</label>
-                            <input type="tel" name="contact" class="form-control" pattern="\d{10}" maxlength="10" required placeholder="10-digit U.S. number">
-                            <small class="text-muted">Example: 1234567890</small>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="password">Password</label>
-                            <input type="password" name="password" class="form-control" required>
-                        </div>
-                        <div class="form-group mb-4">
-                            <label for="confirm_password">Confirm Password</label>
-                            <input type="password" name="confirm_password" class="form-control" required>
-                        </div>
-                        <button type="submit" class="btn btn-success w-100">Create Account</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+  <div class="card shadow-lg p-4 rounded" style="max-width: 450px; width: 100%;">
+    <div class="text-center mb-3">
+      <h3 class="fw-bold">Create Account</h3>
     </div>
+
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+
+    <form method="POST">
+      {% csrf_token %}
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" name="name" class="form-control rounded-pill" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" class="form-control rounded-pill" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="contact" class="form-label">Contact Number</label>
+        <input type="tel" name="contact" class="form-control rounded-pill" pattern="\d{10}" maxlength="10" required placeholder="10-digit number">
+        <small class="text-muted">Example: 1234567890</small>
+      </div>
+
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" name="password" class="form-control rounded-pill" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="confirm_password" class="form-label">Confirm Password</label>
+        <input type="password" name="confirm_password" class="form-control rounded-pill" required>
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary rounded-pill btn-lg">Create Account</button>
+      </div>
+    </form>
+  </div>
 </div>
+
 {% endblock %}

@@ -1,0 +1,15 @@
+
+.panel-heading {
+    background-color: #0275d8 !important;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+}

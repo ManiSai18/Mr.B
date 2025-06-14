@@ -1,71 +1,77 @@
 {% extends 'budget/base.html' %}
-{% load static %}
-
 {% block content %}
-<div class="container mt-5">
-  <h3 class="text-center">Add Expense for Plan: {{ plan.title }}</h3>
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white text-center">
+          <h4>Add Expense for {{ plan.title }}</h4>
+        </div>
+        <div class="card-body">
+          <form method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+              <label>Person:</label>
+              <select name="person" class="form-select" required>
+                {% for p in people %}
+                  <option value="{{ p.person_id }}">{{ p.person_name }}</option>
+                {% endfor %}
+              </select>
+            </div>
 
-  <form method="post">
-    {% csrf_token %}
-    <div class="form-group">
-      <label>Person:</label>
-      <select name="person" required class="form-control">
-        {% for p in people %}
-          <option value="{{ p.person_id }}">{{ p.person_name }}</option>
-        {% endfor %}
-      </select>
+            <div class="mb-3">
+              <label>Amount:</label>
+              <input type="number" name="amount" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label>Date:</label>
+              <input type="date" name="date" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label>Description:</label>
+              <input type="text" name="description" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label>Payment Method:</label>
+              <select name="payment_method" class="form-select" required>
+                {% for method in payment_methods %}
+                  <option value="{{ method.payment_method_id }}">{{ method.payment_method_name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label>Category:</label>
+              <select name="category" class="form-select" required>
+                {% for cat in categories %}
+                  <option value="{{ cat.category_id }}">{{ cat.category_name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <input type="hidden" name="city" id="city">
+            <input type="hidden" name="state" id="state">
+            <input type="hidden" name="zip" id="zip">
+            <input type="hidden" name="address" id="address">
+            <input type="hidden" name="location_type" id="location_type">
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary btn-lg rounded-pill">Add Expense</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-
-    <div class="form-group">
-      <label>Amount:</label>
-      <input type="number" name="amount" required class="form-control">
-    </div>
-
-    <div class="form-group">
-      <label>Date:</label>
-      <input type="date" name="date" required class="form-control">
-    </div>
-
-    <div class="form-group">
-      <label>Description:</label>
-      <input type="text" name="description" required class="form-control">
-    </div>
-
-    <div class="form-group">
-      <label>Payment Method:</label>
-      <select name="payment_method" required class="form-control">
-        {% for method in payment_methods %}
-          <option value="{{ method.payment_method_id }}">{{ method.payment_method_name }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label>Category:</label>
-      <select name="category" required class="form-control">
-        {% for cat in categories %}
-          <option value="{{ cat.category_id }}">{{ cat.category_name }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <!-- Hidden location fields -->
-    <input type="hidden" name="city" id="city">
-    <input type="hidden" name="state" id="state">
-    <input type="hidden" name="zip" id="zip">
-    <input type="hidden" name="address" id="address">
-    <input type="hidden" name="location_type" id="location_type">
-
-    <button type="submit" class="btn btn-primary">Add Expense</button>
-  </form>
+  </div>
 </div>
 
 <script>
   function fetchLocation() {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-    } else {
-      console.log("Geolocation not supported.");
+      navigator.geolocation.getCurrentPosition(successCallback);
     }
   }
   function successCallback(position) {
@@ -79,10 +85,7 @@
         document.getElementById("zip").value = data.address.postcode || "";
         document.getElementById("address").value = data.display_name || "";
         document.getElementById("location_type").value = data.address.country || "";
-      }).catch(error => console.error("Error fetching location:", error));
-  }
-  function errorCallback(error) {
-    console.warn("Location error: " + error.message);
+      });
   }
   window.onload = fetchLocation;
 </script>

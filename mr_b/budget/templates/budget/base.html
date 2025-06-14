@@ -4,50 +4,55 @@
     <meta charset="UTF-8" />
     <title>Mr. Budget</title>
     {% load static %}
+    
+    <!-- Core Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+    <!-- Global Theme -->
+    <link rel="stylesheet" href="{% static 'budget/css/theme.css' %}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Page-specific styles (optional) -->
     <link rel="stylesheet" href="{% static 'budget/css/home.css' %}" />
-    <script src="{% static 'budget/js/home.js' %}" defer></script>
     <link rel="stylesheet" href="{% static 'budget/css/homepage.css' %}" />
     <link rel="stylesheet" href="{% static 'budget/css/login.css' %}" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
   </head>
+
   <body>
     {% if messages %}
-      {% for message in messages %}
-        <div class="alert alert-{{ message.tags }}">{{ message }}</div>
-      {% endfor %}
+      <div class="container mt-2">
+        {% for message in messages %}
+          <div class="alert alert-{{ message.tags }} text-center">{{ message }}</div>
+        {% endfor %}
+      </div>
     {% endif %}
-    <!-- Header (converted from header.php) -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a class="navbar-brand"
-            href="{% if request.session.user_id %}
-              {% url 'dashboard' %}
-            {% else %}
-              {% url 'index' %}
-            {% endif %}">
-            Mr. Budget
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
+        <a class="navbar-brand fw-bold" href="{% if request.session.user_id %}{% url 'dashboard' %}{% else %}{% url 'index' %}{% endif %}">Mr. Budget</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <ul class="navbar-nav">
             {% if request.session.user_id %}
-              <li>
-                <a href="#"><span class="glyphicon glyphicon-info-sign"></span> About Us</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-info-circle"></i> About Us</a>
               </li>
-              <li>
-                <a href="{% url 'request_password_reset' %}"><span class="glyphicon glyphicon-cog"></span> Change Password</a>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'request_password_reset' %}"><i class="bi bi-key"></i> Change Password</a>
               </li>
-              <li>
-                <a class="nav-link" href="{% url 'logout' %}"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'logout' %}"><i class="bi bi-box-arrow-right"></i> Logout</a>
               </li>
             {% else %}
-              <li>
-                <a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'login' %}"><i class="bi bi-box-arrow-in-right"></i> Login</a>
               </li>
-              <li>
-                <a href="{% url 'signup' %}"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'signup' %}"><i class="bi bi-person-plus"></i> Sign Up</a>
               </li>
             {% endif %}
           </ul>
@@ -55,16 +60,11 @@
       </div>
     </nav>
 
-    <div style="margin-top: 70px">
-      {% block content %}
-      {% endblock %}
+    <div class="container" style="padding-top: 80px;">
+      {% block content %}{% endblock %}
     </div>
 
-    <!-- Footer (from footer.php) -->
-    {% comment %} <footer>
-      <div class="container">
-        <center>Copyright © Mr. Budget. All Rights Reserved | Contact Us: +1 2676981836</center>
-      </div>
-    </footer> {% endcomment %}
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

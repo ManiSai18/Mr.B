@@ -1,0 +1,93 @@
+{% extends 'budget/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+  <h3 class="text-center">Edit Expense</h3>
+
+  <form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label>Person:</label>
+      <select name="person" required class="form-control">
+        {% for p in people %}
+          <option value="{{ p.person_id }}" {% if p.person_id == expense.person.person_id %}selected{% endif %}>
+            {{ p.person_name }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Amount:</label>
+      <input type="number" name="amount" required class="form-control" value="{{ expense.amount_spent }}">
+    </div>
+
+    <div class="form-group">
+      <label>Date:</label>
+      <input type="date" name="date" required class="form-control" value="{{ expense.date|date:'Y-m-d' }}">
+    </div>
+
+    <div class="form-group">
+      <label>Description:</label>
+      <input type="text" name="description" required class="form-control" value="{{ expense.expense_title }}">
+    </div>
+
+    <div class="form-group">
+      <label>Payment Method:</label>
+      <select name="payment_method" required class="form-control">
+        {% for method in payment_methods %}
+          <option value="{{ method.payment_method_id }}" {% if method == expense.payment_method %}selected{% endif %}>
+            {{ method.payment_method_name }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Category:</label>
+      <select name="category" required class="form-control">
+        {% for cat in categories %}
+          <option value="{{ cat.category_id }}" {% if cat == expense.category %}selected{% endif %}>
+            {{ cat.category_name }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <!-- Hidden location fields -->
+    <input type="hidden" name="city" id="city" value="{{ expense.city }}">
+    <input type="hidden" name="state" id="state" value="{{ expense.state }}">
+    <input type="hidden" name="zip" id="zip" value="{{ expense.zip }}">
+    <input type="hidden" name="address" id="address" value="{{ expense.address }}">
+    <input type="hidden" name="location_type" id="location_type" value="{{ expense.location_type }}">
+
+    <button type="submit" class="btn btn-primary">Update Expense</button>
+  </form>
+</div>
+
+<script>
+  function fetchLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+    }
+  }
+  function successCallback(position) {
+    const lat = position.coords.latitude;
+    const lon = position.coords.longitude;
+    fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("city").value = data.address.city || data.address.town || "";
+        document.getElementById("state").value = data.address.state || "";
+        document.getElementById("zip").value = data.address.postcode || "";
+        document.getElementById("address").value = data.display_name || "";
+        document.getElementById("location_type").value = data.address.country || "";
+      });
+  }
+  function errorCallback(error) {
+    console.warn("Location error: " + error.message);
+  }
+  window.onload = fetchLocation;
+</script>
+{% endblock %}

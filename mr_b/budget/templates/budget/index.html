@@ -1,18 +1,15 @@
 {% extends 'budget/base.html' %}
-{% load static %}
-
 {% block content %}
-<link rel="stylesheet" href="{% static 'budget/css/homepage.css' %}">
 
-<div id="banner_image">
-    <div class="container">
-        <center>
-            <div id="banner_content">
-                <h1>We help you control your budget</h1>
-                <p>Manage your expenses smartly</p>
-                <a href="{% url 'login' %}" class="btn btn-info btn-lg active">Start Today</a>
-            </div>
-        </center>
+<div class="container-fluid p-0">
+  <div class="hero-section d-flex align-items-center justify-content-center text-white text-center">
+    <div class="overlay"></div>
+    <div class="content px-3">
+      <h1 class="display-4 fw-bold mb-4">We help you control your budget</h1>
+      <p class="lead mb-4">Manage your expenses smartly</p>
+      <a href="{% url 'login' %}" class="btn btn-lg btn-light px-5 py-2">Start Today</a>
     </div>
+  </div>
 </div>
+
 {% endblock %}

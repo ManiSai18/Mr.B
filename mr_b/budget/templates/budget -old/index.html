@@ -1,0 +1,18 @@
+{% extends 'budget/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'budget/css/homepage.css' %}">
+
+<div id="banner_image">
+    <div class="container">
+        <center>
+            <div id="banner_content">
+                <h1>We help you control your budget</h1>
+                <p>Manage your expenses smartly</p>
+                <a href="{% url 'login' %}" class="btn btn-info btn-lg active">Start Today</a>
+            </div>
+        </center>
+    </div>
+</div>
+{% endblock %}

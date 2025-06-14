@@ -1,0 +1,84 @@
+{% extends 'budget/base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="container mt-5">
+    <h3 class="mb-4">{{ plan.title }}</h3>
+
+    <div class="mb-3">
+      <p>
+        <strong>Initial Budget:</strong> ${{ plan.initial_budget }}
+      </p>
+      <p>
+        <strong>From:</strong> {{ plan.from_date }} - <strong>To:</strong> {{ plan.to_date }}
+      </p>
+      <p>
+        <strong>Total People:</strong> {{ plan.people_number }}
+      </p>
+    </div>
+
+    <div class="mb-4">
+      <a href="{% url 'plan_detail' plan.plan_id %}" class="btn btn-info">Edit Plan</a>
+      <a href="{% url 'expense_distribution' plan.plan_id %}" class="btn btn-success">View Distribution</a>
+      <a href="{% url 'add_expense' plan.plan_id %}" class="btn btn-primary">Add Expense</a>
+    </div>
+    <br/>
+    <br/>
+    {% if expenses %}
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h5>Expenses</h5>
+        </div>
+        <div class="panel-body">
+          <div class="well">
+            <div class="table-responsive">
+              <table class="table table-bordered table-striped shadow-sm">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>Person</th>
+                    <th>Amount</th>
+                    <th>Title</th>
+                    <th>Payment Method</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip</th>
+                    <th>Address</th>
+                    <th>Location Type</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for expense in expenses %}
+                    <tr>
+                      <td>{{ expense.person.person_name }}</td>
+                      <td>${{ expense.amount_spent }}</td>
+                      <td>{{ expense.expense_title }}</td>
+                      <td>{{ expense.payment_method.payment_method_name }}</td>
+                      <td>{{ expense.category.category_name }}</td>
+                      <td>{{ expense.date|date:"F d, Y" }}</td>
+                      <td>{{ expense.time|time:"h:i A" }}</td>
+                      <td>{{ expense.city }}</td>
+                      <td>{{ expense.state }}</td>
+                      <td>{{ expense.zip }}</td>
+                      <td>{{ expense.address }}</td>
+                      <td>{{ expense.location_type }}</td>
+                      <td>
+                        <a href="{% url 'edit_expense' expense.expense_id %}" class="btn btn-sm btn-primary">Edit</a>
+                        <a href="{% url 'delete_expense' expense.expense_id %}" class="btn btn-sm btn-danger">Delete</a>
+                      </td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <div class="alert alert-info">No expenses added yet.</div>
+    {% endif %}
+  </div>
+{% endblock %}
