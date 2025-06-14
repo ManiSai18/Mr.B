@@ -54,9 +54,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'xkMYxJHLDCIrEjJHbOLFGvPpPRNhDHsw',  # <-- put full password here
+        'PASSWORD': 'xkMYxJHLDCIrEjJHbOLFGvPpPRNhDHsw',
         'HOST': 'centerbeam.proxy.rlwy.net',
-        'PORT': '3306',
+        'PORT': '18545',
     }
 }
 
